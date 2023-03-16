@@ -45,7 +45,7 @@ let output = document.getElementById('output');
 
 Promise.any(promises).then((data) => {
 	console.log("data >>",data);
-	output.innerHtml = data;
+	output.innerHTML = data;
 });
 
 
